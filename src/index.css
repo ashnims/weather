@@ -1,13 +1,111 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.cloud {
+    background-image: url('./component/cloud.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.suny {
+    background-image: url('./photo/sun.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    /* font-size: 30px; */
+}
+
+.logo {
+    width: 40px;
+    height: 50px;
+    background: black;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.display {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.btn-s {
+    position: relative;
+    font-size: 20px;
+    border-radius: 10px;
+    background: black;
+    color: white;
+    margin-top: 10px;
+}
+
+.front-data {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: -20px;
+    font-size: 25px;
+    color: white;
+}
+
+.wind-c {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 30px;
+}
+
+.icon {
+    height: 3rem;
+    position: relative;
+    top: 1rem;
+}
+
+.mide {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 40px;
+    font-size: 40px;
+}
+
+.btn {
+    position: relative;
+    font-size: 20px;
+    border-radius: 10px;
+    background: black;
+    color: white;
+}
+
+.show-cont {
+    display: block;
+    text-transform: uppercase;
+    color: white;
+}
+
+.hide-cont {
+    display: none;
 }
